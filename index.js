@@ -12,7 +12,7 @@ const cors = require('cors');
 const app = express();
 
 // Allow only specific origins
-const allowedOrigins = ['https://ublog.onrender.com'];
+const allowedOrigins = ['https://ublog-ognr.onrender.com'];
 const corsOptions = {
   origin: function (origin, callback) {
     if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
